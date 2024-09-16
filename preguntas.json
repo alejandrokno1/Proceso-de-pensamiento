@@ -1,6 +1,6 @@
 [
     {
-        "contexto": "Juan compró 2 manzanas.",
+        "contexto": "Una calurosa mañana, se encontraba Tío Conejo recolectando zanahorias para el almuerzo. De repente, escuchó un rugido aterrador: ¡era Tío Tigre!",
         "texto": "¿Cuántas manzanas compró Juan?",
         "opciones": ["1", "2", "3", "4"],
         "correcta": "2"
