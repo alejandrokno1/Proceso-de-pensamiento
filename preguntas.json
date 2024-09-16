@@ -1,6 +1,21 @@
 [
     {
         "contexto": "Una calurosa mañana, se encontraba Tío Conejo recolectando zanahorias para el almuerzo. De repente, escuchó un rugido aterrador: ¡era Tío Tigre!",
+        "texto": "¿Qué hizo Tío Conejo cuando escuchó el rugido de Tío Tigre?",
+        "opciones": [
+            "Corrió a esconderse",
+            "Continuó recolectando zanahorias",
+            "Se enfrentó a Tío Tigre",
+            "Llamó a otros animales para que lo ayudaran"
+        ],
+        "correcta": "Corrió a esconderse"
+    }
+    
+    
+    
+    
+    {
+        "contexto": "Una calurosa mañana, se encontraba Tío Conejo recolectando zanahorias para el almuerzo. De repente, escuchó un rugido aterrador: ¡era Tío Tigre!",
         "texto": "¿Cuántas manzanas compró Juan?",
         "opciones": ["1", "2", "3", "4"],
         "correcta": "2"
