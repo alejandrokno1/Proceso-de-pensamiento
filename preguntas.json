@@ -1,0 +1,32 @@
+[
+    {
+        "contexto": "Juan compró 2 manzanas.",
+        "texto": "¿Cuántas manzanas compró Juan?",
+        "opciones": ["1", "2", "3", "4"],
+        "correcta": "2"
+    },
+    {
+        "contexto": "Hoy es un día de la semana.",
+        "texto": "¿Qué día de la semana es hoy?",
+        "opciones": ["Lunes", "Martes", "Miércoles", "Jueves"],
+        "correcta": "Jueves"
+    },
+    {
+        "contexto": "Vas a sumar dos números.",
+        "texto": "¿Cuánto es 2 + 2?",
+        "opciones": ["3", "4", "5", "6"],
+        "correcta": "4"
+    },
+    {
+        "contexto": "Observas el cielo.",
+        "texto": "¿Qué color tiene el cielo?",
+        "opciones": ["Rojo", "Azul", "Verde", "Amarillo"],
+        "correcta": "Azul"
+    },
+    {
+        "contexto": "Estás viendo una figura geométrica.",
+        "texto": "¿Cuántos lados tiene un cuadrado?",
+        "opciones": ["2", "3", "4", "5"],
+        "correcta": "4"
+    }
+]

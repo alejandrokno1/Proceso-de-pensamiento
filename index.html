@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesos de Pensamiento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con marcador de puntos -->
+    <header>
+        <h1>Procesos de Pensamiento</h1>
+        <p>Puntos: <span id="puntos">0</span></p>
+    </header>
+
+    <!-- Cuerpo de la página -->
+    <main>
+        <div class="container">
+            <button id="mostrar-mensaje" class="button">Matemáticas</button>
+            <!-- Mensaje inicial -->
+            <div id="mensaje-prueba" class="mensaje" style="display: none;">
+                Juan compró 2 manzanas.
+            </div>
+            <!-- Preguntas dinámicas -->
+            <div id="pregunta" class="pregunta" style="display: none;">
+                <p id="texto-pregunta"></p>
+                <button class="opcion" data-respuesta="incorrecta">A</button>
+                <button class="opcion" data-respuesta="incorrecta">B</button>
+                <button class="opcion" data-respuesta="incorrecta">C</button>
+                <button class="opcion" data-respuesta="incorrecta">D</button>
+            </div>
+            <p id="resultado" style="display: none;"></p>
+
+            <!-- Botón de reinicio -->
+            <button id="reiniciar" class="button" style="display: none;">Reiniciar</button>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Muchas gracias</p>
+    </footer>
+
+    <!-- Script para manejar las preguntas y respuestas -->
+    <script src="script.js"></script>
+</body>
+</html>
