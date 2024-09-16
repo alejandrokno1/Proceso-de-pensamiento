@@ -20,12 +20,7 @@
         "opciones": ["1", "2", "3", "4"],
         "correcta": "2"
     },
-    {
-        "contexto": "Hoy es un día de la semana.",
-        "texto": "¿Qué día de la semana es hoy?",
-        "opciones": ["Lunes", "Martes", "Miércoles", "Jueves"],
-        "correcta": "Jueves"
-    },
+ 
     {
         "contexto": "Vas a sumar dos números.",
         "texto": "¿Cuánto es 2 + 2?",
