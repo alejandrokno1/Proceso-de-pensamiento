@@ -7,41 +7,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Encabezado con marcador de puntos -->
+    <!-- Encabezado -->
     <header>
         <h1>Procesos de Pensamiento</h1>
-        <p>Puntos: <span id="puntos">0</span></p>
     </header>
 
-    <!-- Cuerpo de la página -->
+    <!-- Cuerpo de la página con botones -->
     <main>
-        <div class="container">
-            <button id="mostrar-mensaje" class="button">Matemáticas</button>
-            <!-- Mensaje inicial -->
-            <div id="mensaje-prueba" class="mensaje" style="display: none;">
-                Juan compró 2 manzanas.
-            </div>
-            <!-- Preguntas dinámicas -->
-            <div id="pregunta" class="pregunta" style="display: none;">
-                <p id="texto-pregunta"></p>
-                <button class="opcion" data-respuesta="incorrecta">A</button>
-                <button class="opcion" data-respuesta="incorrecta">B</button>
-                <button class="opcion" data-respuesta="incorrecta">C</button>
-                <button class="opcion" data-respuesta="incorrecta">D</button>
-            </div>
-            <p id="resultado" style="display: none;"></p>
+        <button onclick="alert('Lectura 1')">Lectura 1</button>
+        <button onclick="alert('Lectura 2')">Lectura 2</button>
+        <button onclick="alert('Lectura 3')">Lectura 3</button>
+        <button id="matematicas1" onclick="abrirModal('matematicas1')">Matemáticas 1</button>
+        <button id="matematicas2" onclick="abrirModal('matematicas2')">Matemáticas 2</button>
+        <button id="matematicas3" onclick="abrirModal('matematicas3')">Matemáticas 3</button>
 
-            <!-- Botón de reinicio -->
-            <button id="reiniciar" class="button" style="display: none;">Reiniciar</button>
-        </div>
     </main>
+
+    <!-- Ventana modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarModal()">&times;</span>
+            <h2>Pregunta de Matemáticas</h2>
+            <p id="pregunta"></p>
+            <p><strong>Cronómetro:</strong> <span id="cronometro">00:00</span></p>
+            <p><strong>Puntaje:</strong> <span id="puntaje">0</span></p>
+            <input type="number" id="respuesta" placeholder="Escribe tu respuesta">
+            <button onclick="verificarRespuesta()">Enviar</button>
+            <button onclick="cerrarModal()" class="cerrar-boton">Cerrar</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
 
     <!-- Pie de página -->
     <footer>
-        <p>Muchas gracias</p>
+        <p>Contáctanos</p>
     </footer>
 
-    <!-- Script para manejar las preguntas y respuestas -->
+    <!-- Carga del archivo JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
